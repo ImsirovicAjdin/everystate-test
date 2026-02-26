@@ -1,9 +1,10 @@
 {
   "name": "@everystate/test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "EveryState Test: Testing library with TDD-style assertions and event-sequence tracking",
   "type": "module",
   "main": "index.js",
+  "types": "index.d.ts",
   "keywords": [
     "everystate",
     "testing",
@@ -25,10 +26,9 @@
   },
   "files": [
     "index.js",
+    "eventTest.js",
+    "index.d.ts",
     "README.md",
     "LICENSE.md"
-  ],
-  "dependencies": {
-    "@uistate/event-test": "^1.0.1"
-  }
+  ]
 }

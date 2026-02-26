@@ -1,8 +1,8 @@
 /**
  * @everystate/test
  *
- * EveryState wrapper for @uistate/event-test
- * Re-exports all functionality from the underlying @uistate/event-test package
+ * Event-sequence testing for EveryState.
+ * TDD-style testing with type extraction capabilities.
  */
 
-export * from '@uistate/event-test';
+export { createEventTest, test, runTests } from './eventTest.js';
