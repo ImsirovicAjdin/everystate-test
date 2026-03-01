@@ -1,6 +1,6 @@
 {
   "name": "@everystate/test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "EveryState Test: Testing library with TDD-style assertions and event-sequence tracking",
   "type": "module",
   "main": "index.js",
